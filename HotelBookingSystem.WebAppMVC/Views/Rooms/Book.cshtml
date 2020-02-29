@@ -1,0 +1,42 @@
+﻿@model HotelBookingSystem.DAL.Models.Room
+
+@{
+    ViewData["Title"] = "Book";
+}
+
+<h2>@Html.DisplayNameFor(model => model.Hotel.HotelName) : @Html.DisplayFor(model => model.Hotel.HotelName)</h2>
+
+
+<br /><br /><br />
+<div class="container">
+
+    <form class="form-inline my-2 my-lg-0" asp-route-id="model.roomdId" asp-controller="Bookings" asp-action="Create">
+        <div class="form-row">
+            <div class="col-lg-4">
+                <p><b>Check in</b></p>
+                <input type="date" id="checkin">
+                <script>
+                    document.getElementById('checkin').value = new Date().toISOString().substring(0, 10);
+                </script>
+            </div>
+            <div class="col-lg-4">
+                <p><b>Check out</b></p>
+                <input type="date" id="checkout">
+                <script>
+                    document.getElementById('checkout').value = new Date().toISOString().substring(0, 10);
+                </script>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-primary btn-lg">
+                    Search
+                </button>
+            </div>
+        </div>
+
+    </form>
+
+
+
+
+</div>
+

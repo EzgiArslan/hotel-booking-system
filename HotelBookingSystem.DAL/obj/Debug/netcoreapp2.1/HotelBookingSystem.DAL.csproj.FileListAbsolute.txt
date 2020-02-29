@@ -1,0 +1,11 @@
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.deps.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.dll
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.AssemblyInfo.cs
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.runtimeconfig.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.runtimeconfig.dev.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.pdb
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.dll
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.pdb
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.DAL\obj\Debug\netcoreapp2.1\HotelBookingSystem.DAL.csprojAssemblyReference.cache

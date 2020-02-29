@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HotelBookingSystem.DAL.Models.Client>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@foreach (var item in Model)
+{
+    <div class="col">
+        <img src="~/images/human.png" alt="ASP.NET" class="img-responsive col-lg-4" />
+
+        <div class="col-lg-8 glyphicon-align-center">
+            <h1> Username : @Html.DisplayFor(modelItem => item.Username) </h1>
+            <h2> @Html.DisplayFor(modelItem => item.ClientName)  @Html.DisplayFor(modelItem => item.ClientSurname)</h2>
+
+
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a asp-action="Edit" asp-route-id="@item.ClientId">Change Information</a>
+    <br>
+    <a asp - action="Delete" asp-route-id="@item.ClientId"> Delete Acount </a>
+
+
+    <br><br><br>
+    <br><br><br>
+
+
+
+    <div class="container">
+        <p><b>Search Hotel with parameters</b></p>
+        <form class="form-inline my-2 my-lg-0" asp-controller="Hotels" asp-action="IndexForClient">
+            <p>
+                City : <input type="text" name="City" placeholder="City">
+                Country : <input type="text" name="Country" placeholder="Country">
+                Star : <input type="number" name="Star" placeholder="Star" max="5" min="1">
+                <input type="submit" value="Search" />
+            </p>
+
+        </form>
+
+        <br><br><br>
+        <p><b>Search Hotel with name</b></p>
+        <form class="form-inline my-2 my-lg-0" asp-controller="Hotels" asp-action="IndexNameForClient">
+            <p>
+                <input type="text" name="SearchString" placeholder="Hotel name">
+                <input type="submit" value="Search" />
+            </p>
+
+        </form>
+    </div>
+
+}

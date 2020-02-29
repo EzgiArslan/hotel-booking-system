@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    #login {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+</style>
+
+<div id="login">
+    <p class="text-center"><b>Account Type:</b></p>
+    <br />
+    <input type="button" class="btn-danger " value="          STAFF          " onclick="location.href='@Url.Action("Login", "Staffs")'" />
+    <br /> <br /> <br />
+    <input type="button" class="btn-success " value="         CLIENT         " onclick="location.href='@Url.Action("Login", "Clients")'" />
+
+    <br /> <br /> <br />
+    <input type="button" class="btn-primary " value="         SIGN UP        " onclick="location.href='@Url.Action("Create", "Clients")'" />
+</div>

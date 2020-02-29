@@ -1,0 +1,34 @@
+﻿
+@model IEnumerable<HotelBookingSystem.DAL.Models.Staff>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@foreach (var item in Model)
+{
+    <div class="col">
+        <img src="~/images/human.png" alt="ASP.NET" class="img-responsive col-lg-4" />
+
+        <div class="col-lg-8 glyphicon-align-center">
+            <h1> Username : @Html.DisplayFor(modelItem => item.Username) </h1>
+            <h2> @Html.DisplayFor(modelItem => item.StaffName)  @Html.DisplayFor(modelItem => item.StaffSurname)</h2>
+
+
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a asp-action="Edit" asp-route-id="@item.StaffId">Change Information</a>
+    <br>
+    <a asp-action="Delete" asp-route-id="@item.StaffId"> Delete Acount </a>
+    <br />
+    <a asp-controller="Rooms" asp-action="IndexRoom" asp-route-id="@item.HotelId"> List Hotel Rooms </a>
+    <br />
+    <a asp-controller="Bookings" asp-action="IndexBooking" asp-route-id="@item.HotelId"> List Bookings </a>
+
+    <br><br><br>
+    <br><br><br>
+
+
+}

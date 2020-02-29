@@ -1,0 +1,42 @@
+﻿@model HotelBookingSystem.DAL.Models.Booking
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Booking</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CheckinDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CheckinDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CheckoutDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CheckoutDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.ClientName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Room)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Room.RoomId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BookId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

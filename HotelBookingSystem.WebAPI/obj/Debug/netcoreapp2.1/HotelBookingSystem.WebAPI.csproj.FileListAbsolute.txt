@@ -1,0 +1,17 @@
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.deps.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.runtimeconfig.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.runtimeconfig.dev.json
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.dll
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.pdb
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.dll
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\bin\Debug\netcoreapp2.1\HotelBookingSystem.DAL.pdb
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.csprojAssemblyReference.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.RazorAssemblyInfo.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.RazorAssemblyInfo.cs
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.AssemblyInfoInputs.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.AssemblyInfo.cs
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.csproj.CopyComplete
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.dll
+C:\Users\Ezgi\source\repos\odev\HotelBookingSystem\HotelBookingSystem.WebAPI\obj\Debug\netcoreapp2.1\HotelBookingSystem.WebAPI.pdb

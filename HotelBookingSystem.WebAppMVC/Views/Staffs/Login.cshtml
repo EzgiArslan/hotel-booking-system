@@ -1,0 +1,28 @@
+﻿@model IEnumerable<HotelBookingSystem.DAL.Models.Staff>
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    #login {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+</style>
+
+<div id="login">
+    <form method="post" class="form-inline my-2 my-lg-0" asp-controller="Staffs" asp-action="profile">
+        <p>
+            <b>Username :</b><input type="text" name="UserName">
+            <br /><br />
+            <b>Password :</b><input type="password" name="passwords">
+            <br /><br />
+            <input class="btn-success" type="submit" value="Login" />
+        </p>
+    </form>
+</div>
